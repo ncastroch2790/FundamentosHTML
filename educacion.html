@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hoja de Vida Digital</title>
+</head>
+<body>
+  <svg width="195px" heigth="5px" viewbox="0 0 85 33">
+    <image xlink:href="image/logoBINICSA.svg" width="195px" heigth="5px">Tu navegador no soporta imagen svg</image>
+  </svg>
+  <h1>Curriculum Vitae</h1>
+  <h2 style="background:rgb(86, 195, 223);color:rgb(255, 255, 255);">Datos Personales</h2>
+  <h2>Nombre: Primer Nombre Segundo Nombre Apellido</h2>
+  <h2>Fecha de Nacimiento: Fecha del Mes del Año</h2>
+  <h2>Lugar: Ciudad, País</h2>
+  <nav>
+    <a href="./index.html">Inicio</a> | <a href="./educacion.html">Educacion</a> | <a href="./experiencia.html">Experiencia</a>
+  </nav><br>
+  <table border="1" style="border: 1px solid black;border-collapse: collapse;width:40%">
+    <thead>
+      <tr>
+        <th>Año</th>
+        <th>Institución</th>
+        <th>Lugar</th>
+        <th>Culminó</th>
+      </tr>
+    </thead>
+    <tr>
+      <td>Período</td>
+      <td>Escuela Primaria</td>
+      <td>La Ceiba</td>
+      <td>Si</td>
+    </tr>
+    <tr>
+      <td>Período</td>
+      <td>Escuela Secundaria</td>
+      <td>La Ceiba</td>
+      <td>Si</td>
+    </tr>
+    <tr>
+      <td>Período</td>
+      <td>Educación Superior</td>
+      <td>La Ceiba</td>
+      <td>Si</td>
+    </tr>
+  </table>
+  <h2>Agregar Estudios</h2>
+  <form autocomplete="on">
+    <label for="#listAnio"><strong>Año</strong></label>
+    <select id="listAnio">
+      <option>2016</option>
+      <option>2017</option>
+      <option>2018</option>
+      <option>2019</option>
+      <option>2020</option>
+    </select><br>
+    <label for="txtInst"><strong>Institución:</strong></label>
+    <input type="text" name="txtInst" required="yes" id="txtInst"><br>
+    <label for="txtaLugar"><strong>Lugar:</strong></label>
+    <textarea name="txtaLugar" rows="2" cols="30" id="txtaLugar"></textarea><br>
+    <label for="rd1"><strong>¿Culminó?</strong></label>
+    <input type="radio" name="culmino" value="Si" checked="" id="rd1">
+    <input type="radio" name="culmino" value="No" id="rd1"><br>
+    <input type="submit" name="Enviar" value="Enviar">
+  </form>
+<footer>
+<p>© Derechos Reservados BINICSA | ✉ <a href="mailto:binicsa.com.ni">info@binicsa.com.ni</a> | ✆1800-2258 | <a href="http://www.facebook.com" target="_blank" title="Facebook"><img alt="Siguenos en Facebook" src="https://lh6.googleusercontent.com/-CYt37hfDnQ8/T3nNydojf_I/AAAAAAAAAr0/P5OtlZxV4rk/s32/facebook32.png" width=15 height=15/></a>
+</p>
+</footer>
+</body>
+</html>
